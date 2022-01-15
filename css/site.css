@@ -1,8 +1,9 @@
 :root {
     --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --secondary-color: #ffd519;
     --dark-color: #292929;
     --white-color: #dff3e4;
+    --fizz-buzz: #2C5;
 
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: var(--dark-color);
+    background-color: var(--fizz-buzz);
 }
 
 footer {
@@ -30,7 +31,7 @@ footer .social>a {
 
 footer .social>a:hover {
     opacity: 0.9;
-    color: var(--secondary-color);
+    color: var(--fizz-buzz);
 }
 
 nav #effect:hover {
@@ -86,4 +87,17 @@ main>.container {
 
 .css3icon {
     color: rgb(11, 82, 214);
+}
+
+.Fizz {
+    color: darkgreen;
+}
+
+.Buzz {
+    color: darkblue;
+}
+
+.FizzBuzz {
+    color: red;
+    font-weight: bold;
 }

@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A Coding Project By Kenny Ntozakhe</title>
+    <title>FIZZ BUZZ: A Coding Project By Kenny Ntozakhe</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +12,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/site.css">
-    <link rel="icon" type="img/png" href="/img/icon white.png">
+    <link rel="icon" type="img/png" href="/img/fizzlogo.png">
     <link rel="stylesheet" href="/css/prism.css">
 </head>
 
@@ -20,8 +20,8 @@
     <!-- Nav Section-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/img/favicon-32x32.png" alt="logo" class="d-inline-block"
-                    width="30" height="24"> Kenny Ntozakhe</a>
+            <a class="navbar-brand" href="/index.html"><img src="/img/fizzlogo.png" alt="logo" class="d-inline-block"
+                    width="30" height="24"> Fizz Buzz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#" id="effect">Git Repo</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/Ntozakhe/fizzbuzz-codealong"
+                            id="effect">Git Repo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="#" id="effect">About</a>
@@ -52,21 +53,34 @@
     <!-- Main Section-->
     <main class="flex-shrink-0">
         <div class="container mt-5 p-5">
-            <h2 class="border-1 border-bottom border-dark">The Code for HONDERD</h2>
+            <h2 class="border-1 border-bottom border-dark">The Code for FIZZBUZZ</h2>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col-lg-8">
                     <pre class="line-numbers">
                         <code class="language-javascript">
-                            function helloWorld(){
-                                alert("Hello World");
-                            }
+                           
                         </code>
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The code is structured in one title:</p>
-                    <h5>Hello World</h5>
-                    <p>helloWorld is a Function that displays a message of "Hello World"</p>
+                    <div class="img-fluid mb-4 d-flex justify-content-center">
+                        <img src="/img/fizzlogolong.png" alt="FizzBuzz logo">
+                    </div>
+                    <h5 class="text-info">getValues&#x00028;&#x00029;</h5>
+                    <p>is a function that gets user input values from the page. It then converts the input values to
+                        integers. Then, it makes sure that the user hasn't entered a value &#x0003C; 1. Once all these
+                        validations pass. We then call <strong>generateNumbers()</strong> aswell as
+                        <strong>displayNumbers()</strong> function
+                    </p>
+                    <h5 class="text-info">generateNumbers&#x00028;&#x00029;</h5>
+                    <p>we push the user input values' range into an array to use later on.</p>
+                    <h5 class="text-info">displayNumbers&#x00028;&#x00029;</h5>
+                    <p>Here the fuction is resposible for traversing the array we created with
+                        generateNumbers&#x00028;&#x00029;. As we travers each value we then check to see if For each
+                        multiple of 3, it displays "Fizz" instead of the number.
+                        For each multiple of 5, it displays "Buzz" instead of the number.
+                        For numbers which are multiples of both 3 and 5, it displays "FizzBuzz" instead of the number.
+                    </p>
                 </div>
             </div>
         </div>
